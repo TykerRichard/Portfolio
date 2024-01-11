@@ -68,15 +68,24 @@ background:hsla(210,90%,45%,.65);
     text-align: center;
 }
 
-.Goals{
+.Goals {
     vertical-align: top;
-    width: 620px; 
-    padding: 10px 10px;
-    
+    width: 620px;
+    margin-bottom: 10px;    
 }
 
-.Goals.List{
+.Hobbies {
+    vertical-align:top;
+    width: 620px;
+    margin-bottom: 10px; 
+        
+}
+
+.List{
     list-style:disc;
+    padding: 10px 50px;
+    width: 500px;
+    
 }
 
 
@@ -89,20 +98,42 @@ background:hsla(210,90%,45%,.65);
     
 }
 
-.Skills {
-    width:602px; 
+
+p{
+    padding-left: 5px;
+} 
+
+.Skills li{
+    list-style: disc;
+    
 }
 
-.Goals,
-.Skills,
-.Certifications,
-.Hobbies{
-    border: 1px solid red;
-    
+.Skills ul{
+    padding-left: 50px;
+}
+
+div.Certifications{
+    width: 620px;
+    margin-bottom: 10px;
+}
+
+.Left div,
+.Left section,
+.Right{
+    border: 1px solid red;    
     display:inline-block;
     background:hsla(210,90%,45%,.65);
-    
     } 
+
+.Right{
+    display: inline-block;
+    width:620px; 
+    
+}
+.Left{
+    width:620px; 
+}
+
     .Goals .Header,
     .Skills .Header ,
     .Certifications .Header,
@@ -110,8 +141,15 @@ background:hsla(210,90%,45%,.65);
         text-align: center;
         font-size: 30px;
         color:#ffffffc9;
+        ;
     
     }  
+
+.Subheader{
+        color:#ffffffc9;
+        font-size: 20px;
+        padding-left: 25%;
+    }
 
 
 .navitems li:hover{
