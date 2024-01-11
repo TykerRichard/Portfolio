@@ -10,6 +10,11 @@
   
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Oswold';
+}
+
 .Banner{
     background-image: url(/src/Images/background.png);
  
@@ -42,7 +47,115 @@ nav{
     padding:10px 10px; 
     color:#ffffffc9;
     font-size: 25;
-    font-weight: bold;
+    font-weight: bold;   
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    color:#a1a1a1; 
+}    
+
+
+ .Eustis,
+ .Fidelity,
+ .BestBuy{
+    background-color:hsla(210,90%,45%,.65);
+    width:  1000px ;
+    margin-bottom: 20px;
+    margin: 20px auto;
     
     
 }
+.CompanyDuties{
+    color:#ffffffc9;
+    display: inline-block;
+    width: 600px;
+    
+}
+
+
+.Eustis .CompanyDuties{
+    margin-left:20%;
+    padding-top: 30px;
+}
+
+.CompanyDuties li{
+    list-style: disc;
+    padding-bottom: 10px;
+
+}
+
+.CompanyCotainer{
+ margin-left: 35px; 
+
+}
+
+.Eustis .CompanyCotainer{
+    bottom: 400px;
+    left:30px;
+}
+.Eustis .Position{
+    padding-left: 450px;
+    position: relative;
+    bottom: 20px;
+}
+.CompanyCotainer h1 {
+    color:#ffffffc9;
+    font-size: 30px;
+    
+    
+}
+.CompanyCotainer p {
+    color:#ffffffc9;
+    font-size: 20px;
+
+    
+}
+
+.Eustis .CompanyLogo {
+    height: 150px; 
+    position: relative;
+    background-color: white;    
+}
+.Eustis img{
+    
+    padding-left:32%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.Fidelity img{
+    height: 150px;
+    margin-left: 30px;
+    padding:25px 
+}
+
+.BestBuy img{
+    height: 150px;
+    margin-left: 30px;
+    padding:25px 
+}
+
+
+
+.Intro{
+    margin-bottom: 10px;
+    padding: 20px;
+    display: block;
+    background:hsla(210,90%,45%,.65);
+    }
+    .Intro h1{
+        font-size: 50px;
+        text-align: center;
+        color:#ffffffc9
+    }
+    .Intro p{
+        text-align: center;
+    }
+
+    .White{
+        color:#a1a1a1;  
+    }
