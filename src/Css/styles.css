@@ -119,19 +119,24 @@ div.Certifications{
 
 .Left div,
 .Left section,
-.Right{
-    border: 1px solid red;    
-    display:inline-block;
+.Right{    
     background:hsla(210,90%,45%,.65);
     } 
 
-.Right{
+
+
+    .Right{
     display: inline-block;
-    width:620px; 
-    
+    width: 600px;   
+    margin-left: 125px; 
 }
+
 .Left{
-    width:620px; 
+    display: inline-block;
+    width:500px;
+    vertical-align: top; 
+    padding-right: 300px;
+    margin-left: 15%;
 }
 
     .Goals .Header,
@@ -163,9 +168,5 @@ body{
     color:#a1a1a1; 
 }
 
-.Container{
-    margin-left: 10%;
-    margin-right: 10%;
-    
-}
+
 
