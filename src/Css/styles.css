@@ -3,48 +3,50 @@
     src: url(/src/Fonts/Pacifico-Regular.ttf);
     font-family: 'Oswold';
     src: url(/src/Fonts/Oswald-VariableFont_wght.ttf)
-    
 }
 
-*{
-  
+* {
+
     box-sizing: border-box;
 }
-.Banner{
+
+.Banner {
     background-image: url(/src/Images/background.png);
- 
-    
+
+
 }
 
-.Banner.Text{
+.Banner.Text {
     color: #ffffffc9;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30%;
-    font-family: 'Pacifico',cursive;
+    font-family: 'Pacifico', cursive;
     font-size: 100px;
-    
+
 
 }
-nav{
-    background: hsla(210,90%,45%,.65);
+
+nav {
+    background: hsla(210, 90%, 45%, .65);
     margin-bottom: 10px;
 }
-.navitems{
+
+.navitems {
     padding-left: 40%;
-    padding-top:4px;
+    padding-top: 4px;
     padding-bottom: 4px;
 }
 
-.navitems li{
+.navitems li {
     display: inline-block;
     position: relative;
-    padding:10px 10px; 
-    color:#ffffffc9;
+    padding: 10px 10px;
+    color: #ffffffc9;
     font-size: 25;
     font-weight: bold;
-    
-    
+
+
 }
 
 /*.CurrentItem{
@@ -53,120 +55,123 @@ nav{
 }
  */
 
-.Intro{
-margin-bottom: 10px;
-padding: 20px;
-display: block;
-background:hsla(210,90%,45%,.65);
+.Intro {
+    margin-bottom: 10px;
+    padding: 20px;
+    display: block;
+    background: hsla(210, 90%, 45%, .65);
 }
-.Intro h1{
+
+.Intro h1 {
     font-size: 50px;
     text-align: center;
-    color:#ffffffc9
+    color: #ffffffc9
 }
-.Intro p{
+
+.Intro p {
     text-align: center;
 }
 
 .Goals {
     vertical-align: top;
     width: 620px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
 }
 
 .Hobbies {
-    vertical-align:top;
+    vertical-align: top;
     width: 620px;
-    margin-bottom: 10px; 
-        
+    margin-bottom: 10px;
+
 }
 
-.List{
-    list-style:disc;
+.List {
+    list-style: disc;
     padding: 10px 50px;
     width: 500px;
-    
+
 }
 
 
-.Relocate{
+.Relocate {
     padding-left: 60px;
 }
 
-.Relocate li{
+.Relocate li {
     list-style: circle;
-    
+
 }
 
 
-p{
+p {
     padding-left: 5px;
-} 
-
-.Skills li{
-    list-style: disc;
-    
 }
 
-.Skills ul{
+.Skills li {
+    list-style: disc;
+
+}
+
+.Skills ul {
     padding-left: 50px;
 }
 
-div.Certifications{
+div.Certifications {
     width: 620px;
     margin-bottom: 10px;
 }
 
 .Left div,
 .Left section,
-.Right{    
-    background:hsla(210,90%,45%,.65);
-    } 
-
-
-
-    .Right{
-    display: inline-block;
-    width: 600px;   
-    margin-left: 125px; 
+.Right {
+    background: hsla(210, 90%, 45%, .65);
 }
 
-.Left{
+
+
+.Right {
     display: inline-block;
-    width:500px;
-    vertical-align: top; 
+    width: 600px;
+    margin-left: 125px;
+}
+
+.Left {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
     padding-right: 300px;
     margin-left: 15%;
 }
 
-    .Goals .Header,
-    .Skills .Header ,
-    .Certifications .Header,
-    .Hobbies .Header{
-        text-align: center;
-        font-size: 30px;
-        color:#ffffffc9;
-        ;
-    
-    }  
+.Goals .Header,
+.Skills .Header,
+.Certifications .Header,
+.Hobbies .Header {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffffc9;
+    ;
 
-.Subheader{
-        color:#ffffffc9;
-        font-size: 20px;
-        padding-left: 25%;
-    }
+}
+
+.Subheader {
+    color: #ffffffc9;
+    font-size: 20px;
+    padding-left: 25%;
+}
 
 
-.navitems li:hover{
+.navitems li:hover {
     background-color: rgb(37, 134, 245);
     border-radius: 25px;
 }
 
-body{
+body {
     font-family: 'Oswold';
-    background-color:rgb(0, 0, 0);
-    color:#a1a1a1; 
+    background-color: rgb(0, 0, 0);
+    color: #a1a1a1;
 }
 
-
-
+.White {
+    color: #ffffffc9;
+}

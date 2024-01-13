@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url(/src/Fonts/Pacifico-Regular.ttf);
+    font-family: 'Oswold';
+    src: url(/src/Fonts/Oswald-VariableFont_wght.ttf)
+}
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswold';
+}
+
+.Banner {
+    background-image: url(/src/Images/background.png);
+
+
+}
+
+.Banner.Text {
+    color: #ffffffc9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30%;
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+
+
+}
+
+nav {
+    background: hsla(210, 90%, 45%, .65);
+    margin-bottom: 10px;
+}
+
+.navitems {
+    padding-left: 40%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.navitems li {
+    display: inline-block;
+    position: relative;
+    padding: 10px 10px;
+    color: #ffffffc9;
+    font-size: 25;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: #a1a1a1;
+}
+
+.Intro {
+    margin-bottom: 10px;
+    padding: 20px;
+    display: block;
+    background: hsla(210, 90%, 45%, .65);
+}
+
+.Intro h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #ffffffc9
+}
+
+.Intro p {
+    text-align: center;
+}
+
+.White {
+    color: #a1a1a1;
+}
+
+.Container{
+    background-color: hsla(210, 90%, 45%, .65);
+    margin:auto 30%;
+}
+
+.Method{
+    padding-top: 20px;
+}
+
+.Method.Github{
+    display: inline-block;
+}
+.Method.Linkedin{
+    display: inline-block;
+    margin-left: 30%;
+}
+
+
+img.Linkedin{
+    height: 100px;
+}
+
+img.Github{
+    width: 200px;
+}
+
+img.Phone{
+}
+
+img.Email{
+
+}
+
+.Method.Contact{
+    width: 500px;
+    height: 75px;
+    margin-left: 220px;
+}
+.Method p{
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    
+    
+}
+
+.navitems li:hover {
+    background-color: rgb(37, 134, 245);
+    border-radius: 25px;
+}

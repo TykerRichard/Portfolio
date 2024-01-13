@@ -3,185 +3,196 @@
     src: url(/src/Fonts/Pacifico-Regular.ttf);
     font-family: 'Oswold';
     src: url(/src/Fonts/Oswald-VariableFont_wght.ttf)
-    
 }
 
-*{
-  
+* {
+
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Oswold';
 }
 
-.Banner{
+.Banner {
     background-image: url(/src/Images/background.png);
- 
-    
+
+
 }
 
-.Banner.Text{
+.Banner.Text {
     color: #ffffffc9;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30%;
-    font-family: 'Pacifico',cursive;
+    font-family: 'Pacifico', cursive;
     font-size: 100px;
-    
+
 
 }
-nav{
-    background: hsla(210,90%,45%,.65);
+
+nav {
+    background: hsla(210, 90%, 45%, .65);
     margin-bottom: 10px;
 }
-.navitems{
+
+.navitems {
     padding-left: 40%;
-    padding-top:4px;
+    padding-top: 4px;
     padding-bottom: 4px;
 }
 
-.navitems li{
+.navitems li {
     display: inline-block;
     position: relative;
-    padding:10px 10px; 
-    color:#ffffffc9;
+    padding: 10px 10px;
+    color: #ffffffc9;
     font-size: 25;
-    font-weight: bold;   
+    font-weight: bold;
 }
 
-body{
+body {
     background-color: black;
 }
 
-p{
-    color:#a1a1a1; 
-}    
+p {
+    color: #a1a1a1;
+}
 
 
- .Eustis,
- .Fidelity,
- .BestBuy{
-    background-color:hsla(210,90%,45%,.65);
-    width:  1000px ;
+.Eustis,
+.Fidelity,
+.BestBuy {
+    background-color: hsla(210, 90%, 45%, .65);
+    width: 1000px;
     margin-bottom: 20px;
     margin: 20px auto;
-    
-    
+
+
 }
-.CompanyDuties{
-    color:#ffffffc9;
+
+.CompanyDuties {
+    color: #ffffffc9;
     display: inline-block;
     width: 600px;
-    
+
 }
 
 
-.CompanyDuties{
-    margin-left:20%;
+.CompanyDuties {
+    margin-left: 20%;
     padding-top: 30px;
 }
 
-.CompanyDuties li{
+.CompanyDuties li {
     list-style: disc;
     padding-bottom: 10px;
 
 }
 
-.CompanyCotainer{
- margin-left: 35px; 
+.CompanyCotainer {
+    margin-left: 35px;
 
 }
 
-.Eustis .CompanyCotainer{
+.Eustis .CompanyCotainer {
     bottom: 400px;
-    left:30px;
+    left: 30px;
 }
 
-.Eustis .Position{
+.Eustis .Position {
     padding-left: 450px;
     position: relative;
     bottom: 20px;
 }
+
 .CompanyCotainer h1 {
-    color:#ffffffc9;
+    color: #ffffffc9;
     font-size: 30px;
-    
-    
+
+
 }
 
 .CompanyCotainer p {
-    color:#ffffffc9;
-    font-size: 20px;   
+    color: #ffffffc9;
+    font-size: 20px;
 }
 
 .Eustis .CompanyLogo {
-    height: 150px; 
+    height: 150px;
     position: relative;
-    background-color:white;    
+    background-color: white;
 }
 
-.Fidelity .CompanyLogo{
-        height: 150px; 
-        position: relative;
-        background-color: white  ;   
-}
-
-.BestBuy .CompanyLogo{
-    height: 150px; 
+.Fidelity .CompanyLogo {
+    height: 150px;
     position: relative;
-    background-color:white;   
+    background-color: white;
 }
 
-.Eustis img{
-    
-    padding-left:32%;
+.BestBuy .CompanyLogo {
+    height: 150px;
+    position: relative;
+    background-color: white;
+}
+
+.Eustis img {
+
+    padding-left: 32%;
     padding-bottom: 10px;
     padding-top: 10px;
-    
+
 }
 
-.Fidelity img{
-    height: 150px;  
+.Fidelity img {
+    height: 150px;
     margin-left: 32%;
 }
 
-.Fidelity h1{
+.Fidelity h1 {
     margin-left: 1;
 }
 
-.Fidelity .Position{
+.Fidelity .Position {
     padding-left: 500px;
     position: relative;
     bottom: 20px;
 }
-.BestBuy img{
+
+.BestBuy img {
     margin-left: 30px;
-    padding:15px;
-    padding-left: 32%; 
+    padding: 15px;
+    padding-left: 32%;
 }
 
-.BestBuy .Position{
-        padding-left: 450px;
-        position: relative;
-        bottom: 20px;
+.BestBuy .Position {
+    padding-left: 450px;
+    position: relative;
+    bottom: 20px;
 }
 
-.Intro{
+.Intro {
     margin-bottom: 10px;
     padding: 20px;
     display: block;
-    background:hsla(210,90%,45%,.65);
-    }
-    .Intro h1{
-        font-size: 50px;
-        text-align: center;
-        color:#ffffffc9
-    }
-    .Intro p{
-        text-align: center;
-    }
+    background: hsla(210, 90%, 45%, .65);
+}
 
-    .White{
-        color:#a1a1a1;  
-    }
+.Intro h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #ffffffc9
+}
+
+.Intro p {
+    text-align: center;
+}
+
+.White {
+    color: #a1a1a1;
+}
+
+.navitems li:hover {
+    background-color: rgb(37, 134, 245);
+    border-radius: 25px;
+}
