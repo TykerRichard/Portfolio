@@ -84,3 +84,15 @@ p {
     background-color: rgb(37, 134, 245);
     border-radius: 25px;
 }
+
+.Portfolio,
+.cc-d{
+    background-color: hsla(210, 90%, 45%, .65);
+    margin-bottom: 10px;
+}
+
+.GitHub-logo{
+    width: 80px;
+    height: 50px;
+}
+
