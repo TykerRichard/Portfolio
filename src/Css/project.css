@@ -86,7 +86,9 @@ p {
 }
 
 .Portfolio,
-.cc-d{
+.cc-d,
+.InventoryManagement
+,.AMCalendarManager{
     background-color: hsla(210, 90%, 45%, .65);
     margin-bottom: 10px;
 }
@@ -105,10 +107,7 @@ p {
     margin-left: 130px;
 }
 
-.cc-d .Title{
-    margin-left: 15%;
-    padding-left: 210px;
-}
+
 
 
 .Postlink{
@@ -130,7 +129,13 @@ p {
 .Title{
     color: #ffffffc9;
     font-size: 30px; 
-    margin-left: 37%;
+    padding-left: 37%;
+    width: 100%;
+    background-image: url(/src/Images/blue_technology.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+
     
 }
 
@@ -140,4 +145,14 @@ p {
 
 .White{
     color: white;
+}
+
+
+
+.cc-d .GitHub-logo
+,.InventoryManagement .GitHub-logo
+,.AMCalendarManager .GitHub-logo{
+    width: 80px;
+    height: 50px;
+    margin-left: 505px;
 }
