@@ -74,13 +74,14 @@ nav {
 
 .Goals {
     vertical-align: top;
-    width: 620px;
+    width: 475px;
     margin-bottom: 10px;
+    
 }
 
 .Hobbies {
     vertical-align: top;
-    width: 620px;
+    width: 475px;
     margin-bottom: 10px;
 
 }
@@ -117,7 +118,7 @@ p {
 }
 
 div.Certifications {
-    width: 620px;
+    width: 475px;
     margin-bottom: 10px;
 }
 
@@ -131,16 +132,15 @@ div.Certifications {
 
 .Right {
     display: inline-block;
-    width: 600px;
-    margin-left: 125px;
+    width: 475px;
+    
 }
 
 .Left {
     display: inline-block;
-    width: 500px;
-    vertical-align: top;
-    padding-right: 300px;
-    margin-left: 15%;
+    vertical-align: top;    
+    margin-left: 25%;
+    margin-right: 10px;
 }
 
 .Goals .Header,
