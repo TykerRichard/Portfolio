@@ -24,7 +24,7 @@ body {
     color: #ffffffc9;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 30%;
+    padding-left: 35%;
     font-family: 'Pacifico', cursive;
     font-size: 100px;
 
@@ -37,7 +37,7 @@ nav {
 }
 
 .navitems {
-    padding-left: 40%;
+    padding-left: 43%;
     padding-top: 4px;
     padding-bottom: 4px;
 }
@@ -94,5 +94,36 @@ p {
 .GitHub-logo{
     width: 80px;
     height: 50px;
+    margin-left: 490px;
 }
 
+.SDProjects{
+    margin: 10px 15%;
+}
+
+.Postlink{
+ color: white;   
+}
+
+.Underline{
+    text-decoration: underline;
+}
+
+
+
+.Container{
+    margin-left: 10%;
+    
+    
+}
+
+.Title{
+    color: #ffffffc9;
+    font-size: 30px; 
+    margin-left: 37%;
+    
+}
+
+.Description{
+    padding-left: 15px;
+}
