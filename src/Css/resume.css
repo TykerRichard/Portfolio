@@ -62,7 +62,8 @@ p {
 
 .Eustis,
 .Fidelity,
-.BestBuy {
+.BestBuy,
+.WGU {
     background-color: hsla(210, 90%, 45%, .65);
     width: 1000px;
     margin-bottom: 20px;
@@ -122,18 +123,28 @@ p {
     height: 150px;
     position: relative;
     background-color: white;
+    padding-left: 60px;
 }
 
 .Fidelity .CompanyLogo {
     height: 150px;
     position: relative;
     background-color: white;
+    padding-left:35px;
 }
 
 .BestBuy .CompanyLogo {
     height: 150px;
     position: relative;
     background-color: white;
+    padding-left: 70px;
+}
+
+.WGU .SchoolLogo{
+    height: 150px;
+    position: relative;
+    background-color: white;   
+    padding-left: 26%;
 }
 
 .Eustis img {
