@@ -25,7 +25,23 @@
     font-size: 100px;
 
 
+
 }
+
+.Left.Container h1{
+    background-image: url(/src/Images/blue_technology.jpg);
+    background-position: -90px;
+    background-repeat: no-repeat;
+    width: 475px; 
+}
+
+.Right.Container h1{
+    background-image: url(/src/Images/blue_technology.jpg);
+    background-position: -90px;
+    background-repeat: no-repeat;
+    width: 470px; 
+}
+
 
 nav {
     background: hsla(210, 90%, 45%, .65);
@@ -132,7 +148,7 @@ div.Certifications {
 
 .Right {
     display: inline-block;
-    width: 475px;
+    width: 470px;
     
 }
 
@@ -141,6 +157,7 @@ div.Certifications {
     vertical-align: top;    
     margin-left: 25%;
     margin-right: 10px;
+    
 }
 
 .Goals .Header,

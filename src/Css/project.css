@@ -88,7 +88,8 @@ p {
 .Portfolio,
 .cc-d,
 .InventoryManagement
-,.AMCalendarManager{
+,.AMCalendarManager
+,.SchoolCalendarSystem{
     background-color: hsla(210, 90%, 45%, .65);
     margin-bottom: 10px;
 }
@@ -135,6 +136,7 @@ p {
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
+    
 
     
 }
@@ -151,7 +153,8 @@ p {
 
 .cc-d .GitHub-logo
 ,.InventoryManagement .GitHub-logo
-,.AMCalendarManager .GitHub-logo{
+,.AMCalendarManager .GitHub-logo
+,.SchoolCalendarSystem .GitHub-logo{
     width: 80px;
     height: 50px;
     margin-left: 505px;
