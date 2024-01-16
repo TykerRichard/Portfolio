@@ -80,50 +80,49 @@ p {
     color: #a1a1a1;
 }
 
-.Container{
+.Container {
     background-color: hsla(210, 90%, 45%, .65);
-    margin:auto 30%;
+    margin: auto 30%;
 }
 
-.Method{
+.Method {
     padding-top: 20px;
 }
 
-.Method.Github{
+.Method.Github {
     display: inline-block;
 }
-.Method.Linkedin{
+
+.Method.Linkedin {
     display: inline-block;
     margin-left: 30%;
 }
 
 
-img.Linkedin{
+img.Linkedin {
     height: 100px;
 }
 
-img.Github{
+img.Github {
     width: 200px;
 }
 
-img.Phone{
-}
+img.Phone {}
 
-img.Email{
+img.Email {}
 
-}
-
-.Method.Contact{
+.Method.Contact {
     width: 500px;
     height: 75px;
     margin-left: 220px;
 }
-.Method p{
+
+.Method p {
     display: inline-block;
     position: relative;
     bottom: 5px;
-    
-    
+
+
 }
 
 .navitems li:hover {

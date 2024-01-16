@@ -87,74 +87,74 @@ p {
 
 .Portfolio,
 .cc-d,
-.InventoryManagement
-,.AMCalendarManager
-,.SchoolCalendarSystem{
+.InventoryManagement,
+.AMCalendarManager,
+.SchoolCalendarSystem {
     background-color: hsla(210, 90%, 45%, .65);
     margin-bottom: 10px;
 }
 
-.GitHub-logo{
+.GitHub-logo {
     width: 80px;
     height: 50px;
     margin-left: 490px;
 }
 
-.SDProjects{
+.SDProjects {
     margin: 10px 15%;
 }
 
-.cc-d{
+.cc-d {
     margin-left: 130px;
 }
 
 
 
 
-.Postlink{
- color: white;   
+.Postlink {
+    color: white;
 }
 
-.Underline{
+.Underline {
     text-decoration: underline;
 }
 
 
 
-.Container{
+.Container {
     margin-left: 10%;
-    
-    
+
+
 }
 
-.Title{
+.Title {
     color: #ffffffc9;
-    font-size: 30px; 
+    font-size: 30px;
     padding-left: 37%;
     width: 100%;
     background-image: url(/src/Images/blue_technology.jpg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
-    
 
-    
+
+
 }
 
-.Description{
+.Description {
     padding-left: 15px;
 }
 
-.White{
+.White {
     color: white;
 }
 
 
 
-.cc-d .GitHub-logo
-,.InventoryManagement .GitHub-logo
-,.AMCalendarManager .GitHub-logo
-,.SchoolCalendarSystem .GitHub-logo{
+.cc-d .GitHub-logo,
+.InventoryManagement .GitHub-logo,
+.AMCalendarManager .GitHub-logo,
+.SchoolCalendarSystem .GitHub-logo {
     width: 80px;
     height: 50px;
     margin-left: 505px;

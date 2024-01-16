@@ -62,7 +62,7 @@ p {
 
 .Eustis,
 .Fidelity,
-.BestBuy{
+.BestBuy {
     background-color: hsla(210, 90%, 45%, .65);
     width: 1000px;
     margin-bottom: 20px;
@@ -136,7 +136,7 @@ p {
     height: 150px;
     position: relative;
     background-color: white;
-    padding-left:35px;
+    padding-left: 35px;
 }
 
 .BestBuy .CompanyLogo {
@@ -146,36 +146,36 @@ p {
     padding-left: 70px;
 }
 
-.WGUBanner{
+.WGUBanner {
     position: relative;
     left: 20px;
 }
 
-.WGU .SchoolLogo{
+.WGU .SchoolLogo {
     height: 150px;
     width: 500px;
     position: relative;
-    background-color: white;   
+    background-color: white;
     display: inline-block;
 }
 
-.SchoolLogo2{
+.SchoolLogo2 {
     width: 499px;
     height: 150px;
-    display:inline-block;
+    display: inline-block;
     background: white;
     position: relative;
     border-left: 5px grey solid;
     margin-left: -4px;
-    
+
 }
 
-.DelgadoBanner{
-padding-top: 50px;
-position: relative;
-bottom:20px;
-width: 300px;
-left:100px;
+.DelgadoBanner {
+    padding-top: 50px;
+    position: relative;
+    bottom: 20px;
+    width: 300px;
+    left: 100px;
 
 }
 
@@ -240,35 +240,36 @@ left:100px;
     border-radius: 25px;
 }
 
-.WGUDescription .Sublist{
+.WGUDescription .Sublist {
     color: #ffffffc9;
     list-style: disc;
     margin-left: 60px;
 }
 
-.WGUDescription{
+.WGUDescription {
     display: inline-block;
 }
-.EduTable{
+
+.EduTable {
     padding-left: 85px;
 }
 
-.WGUDescription{
-    color:#ffffffc9;
+.WGUDescription {
+    color: #ffffffc9;
 }
 
-.DccDescription{
+.DccDescription {
     display: inline-block;
     padding-left: 125px;
 }
 
-.DccDescription .Sublist{
+.DccDescription .Sublist {
     color: #ffffffc9;
     list-style: disc;
     margin-left: 60px;
 }
 
-.DccDescription{
-    color:#ffffffc9;
+.DccDescription {
+    color: #ffffffc9;
     vertical-align: top;
 }

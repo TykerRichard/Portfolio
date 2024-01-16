@@ -28,18 +28,18 @@
 
 }
 
-.Left.Container h1{
+.Left.Container h1 {
     background-image: url(/src/Images/blue_technology.jpg);
     background-position: -90px;
     background-repeat: no-repeat;
-    width: 475px; 
+    width: 475px;
 }
 
-.Right.Container h1{
+.Right.Container h1 {
     background-image: url(/src/Images/blue_technology.jpg);
     background-position: -90px;
     background-repeat: no-repeat;
-    width: 470px; 
+    width: 470px;
 }
 
 
@@ -92,7 +92,7 @@ nav {
     vertical-align: top;
     width: 475px;
     margin-bottom: 10px;
-    
+
 }
 
 .Hobbies {
@@ -149,15 +149,15 @@ div.Certifications {
 .Right {
     display: inline-block;
     width: 470px;
-    
+
 }
 
 .Left {
     display: inline-block;
-    vertical-align: top;    
+    vertical-align: top;
     margin-left: 25%;
     margin-right: 10px;
-    
+
 }
 
 .Goals .Header,
