@@ -12,6 +12,7 @@
 
 .Banner {
     background-image: url(/src/Images/background.png);
+    border-radius:15px;
 
 
 }
@@ -33,6 +34,7 @@
     background-position: -90px;
     background-repeat: no-repeat;
     width: 475px;
+    
 }
 
 .Right.Container h1 {
@@ -40,12 +42,14 @@
     background-position: -90px;
     background-repeat: no-repeat;
     width: 470px;
+    
 }
 
 
 nav {
     background: hsla(210, 90%, 45%, .65);
     margin-bottom: 10px;
+    border-radius: 15px;
 }
 
 .navitems {
@@ -76,6 +80,7 @@ nav {
     padding: 20px;
     display: block;
     background: hsla(210, 90%, 45%, .65);
+    border-radius: 15px;
 }
 
 .Intro h1 {
@@ -92,6 +97,7 @@ nav {
     vertical-align: top;
     width: 475px;
     margin-bottom: 10px;
+    border-radius: 15px;
 
 }
 
@@ -99,6 +105,7 @@ nav {
     vertical-align: top;
     width: 475px;
     margin-bottom: 10px;
+    border-radius: 15px;
 
 }
 
@@ -136,6 +143,7 @@ p {
 div.Certifications {
     width: 475px;
     margin-bottom: 10px;
+    border-radius: 15px;
 }
 
 .Left div,
@@ -149,6 +157,7 @@ div.Certifications {
 .Right {
     display: inline-block;
     width: 470px;
+    border-radius: 15px;
 
 }
 
