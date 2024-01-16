@@ -231,6 +231,10 @@ p {
     text-align: center;
 }
 
+.Intro a{
+    text-decoration: underline;
+}
+
 .White {
     color: #a1a1a1;
 }
